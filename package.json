@@ -4,7 +4,7 @@
   "description": "WebGi + vanilla project",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html --port=65",
     "build": "parcel build index.html --no-minify --public-url ./",
     "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --verbose"
   },
